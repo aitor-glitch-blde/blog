@@ -1,0 +1,86 @@
+
+body
+{
+    background-image: url(./imagenes/fondo.png);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 20px;
+}
+
+
+header h1
+{
+    color: #f44336;
+    border-color: #f44336;
+    text-align: center;
+    background-color: white;
+    border: 5px;
+    border-style: dashed;
+}
+
+nav ul 
+{
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li
+{
+    display: inline-block;
+    border: 10px;
+    margin: 15px;
+    border-color: #f44336;
+    background-color: #ff9800;
+    color: white;
+}
+
+
+article:nth-child(even) h2
+{
+color: white;
+text-align: right;
+background-color: orange;
+}
+
+article:nth-child(odd) h2
+{
+color: white;
+text-align: left;
+background-color: red;
+}
+
+
+aside ul li:first-child
+{
+    font-size: 24px;
+    color: blue;
+}
+aside ul li:nth-child(2)
+{
+    font-size: 20px;
+    color: red;
+}
+
+aside ul li:nth-child(3)
+{
+    color: green;
+}
+
+footer h1
+{
+    text-align: center;
+    font-size: 20px;
+    border-style: dashed;
+}
+
+p
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+aside ul
+{
+    list-style: square;
+    font-style: italic;
+}
+
